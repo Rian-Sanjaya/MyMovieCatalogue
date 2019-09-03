@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MovieDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_detail_movie"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_detail_movie_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Name"
+            android:layout_toEndOf="@id/img_detail_movie"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_detail_userscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Score"
+            android:layout_toEndOf="@+id/img_detail_movie"
+            android:layout_below="@+id/tv_detail_movie_name"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Score"
+            android:layout_toEndOf="@+id/tv_detail_userscore"
+            android:layout_below="@+id/tv_detail_movie_name"
+            android:layout_marginTop="8sp"
+            android:layout_marginLeft="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_detail_runtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Runtime"
+            android:layout_toEndOf="@+id/img_detail_movie"
+            android:layout_below="@+id/tv_detail_userscore"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Runtime"
+            android:layout_toEndOf="@+id/tv_detail_runtime"
+            android:layout_below="@+id/tv_detail_userscore"
+            android:layout_marginTop="8sp"
+            android:layout_marginLeft="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_detail_genres_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/img_detail_movie"
+            android:layout_below="@+id/tv_detail_runtime"
+            android:text="Genres"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_detail_genres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genres"
+            android:layout_toEndOf="@+id/img_detail_movie"
+            android:layout_below="@+id/tv_detail_genres_label"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tv_detail_movie_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Description"
+            android:layout_below="@id/img_detail_movie"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"/>
+
+    </RelativeLayout>
+</ScrollView>

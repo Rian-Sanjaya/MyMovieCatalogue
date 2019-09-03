@@ -1,0 +1,101 @@
+<resources>
+    <string name="nama_movie">Nama Movie</string>
+    <string name="lorem">lorem ipsum dolor sit amet</string>
+    <string name="app_name">MyMovieCatalogue</string>
+
+    <array name="data_photo_movie">
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_themule</item>
+        <item>@drawable/poster_venom</item>
+    </array>
+
+    <string-array name="data_name_movie">
+        <item>Aquaman (2018)</item>
+        <item>Avengers: Infinity War (2018)</item>
+        <item>Bohemian Rhapsody (2018)</item>
+        <item>BumbleBee (2018)</item>
+        <item>Creed II</item>
+        <item>Once Upon a Deadpool</item>
+        <item>How To Train Your Dragon: The Hidden World</item>
+        <item>Dragon Ball The Movie: Broly</item>
+        <item>Mortal Engines</item>
+        <item>Robin Hood</item>
+        <item>Spiderman Into The Spider-Verse</item>
+        <item>The Mule</item>
+        <item>Venom</item>
+    </string-array>
+
+    <string-array name="data_description_movie">
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm\'s half-human, half-Atlantean brother and true heir to the throne.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock \'n\' roll band Queen in 1970. Hit songs become instant classics. When Mercury\'s increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
+        <item>lorem ipsum</item>
+        <item>lorem ipsum</item>
+        <item>lorem ipsum</item>
+        <item>lorem ipsum</item>
+        <item>lorem ipsum</item>
+        <item>lorem ipsum</item>
+        <item>lorem ipsum</item>
+        <item>lorem ipsum</item>
+        <item>lorem ipsum</item>
+    </string-array>
+
+    <string-array name="data_user_score">
+        <item>68%</item>
+        <item>83%</item>
+        <item>81%</item>
+        <item>65%</item>
+        <item>83%</item>
+        <item>83%</item>
+        <item>83%</item>
+        <item>83%</item>
+        <item>83%</item>
+        <item>83%</item>
+        <item>83%</item>
+        <item>83%</item>
+        <item>83%</item>
+    </string-array>
+
+    <string-array name="data_runtime">
+        <item>2h 24m</item>
+        <item>2h 29m</item>
+        <item>2h 15m</item>
+        <item>1h 54m</item>
+        <item>2h 29m</item>
+        <item>2h 29m</item>
+        <item>2h 29m</item>
+        <item>2h 29m</item>
+        <item>2h 29m</item>
+        <item>2h 29m</item>
+        <item>2h 29m</item>
+        <item>2h 29m</item>
+        <item>2h 29m</item>
+    </string-array>
+
+    <string-array name="data_genres">
+        <item>Adventure, Action, Fantasy</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Drama, Music</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Adventure, Action, Science Fiction</item>
+    </string-array>
+</resources>
