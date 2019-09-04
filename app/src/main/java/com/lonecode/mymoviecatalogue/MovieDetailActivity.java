@@ -1,15 +1,10 @@
 package com.lonecode.mymoviecatalogue;
 
-import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
-
-import java.util.ArrayList;
 
 public class MovieDetailActivity extends AppCompatActivity {
     public static final String EXTRA_MOVIE_DETAIL = "extra_movie_detail";
@@ -51,11 +46,12 @@ public class MovieDetailActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                NavUtils.navigateUpFromSameTask(this);
+                finish();
                 return true;
 
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
+
 }
