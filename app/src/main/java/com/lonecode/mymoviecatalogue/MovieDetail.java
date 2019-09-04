@@ -10,7 +10,6 @@ public class MovieDetail implements Parcelable {
     private String description;
     private String runtime;
     private String genres;
-    private String[] crews;
 
     public int getPhoto() {
         return photo;
@@ -60,14 +59,6 @@ public class MovieDetail implements Parcelable {
         this.genres = genres;
     }
 
-    public String[] getCrews() {
-        return crews;
-    }
-
-    public void setCrews(String[] crews) {
-        this.crews = crews;
-    }
-
     @Override
     public int describeContents() {
         return 0;
@@ -81,7 +72,6 @@ public class MovieDetail implements Parcelable {
         dest.writeString(this.description);
         dest.writeString(this.runtime);
         dest.writeString(this.genres);
-        dest.writeStringArray(this.crews);
     }
 
     public MovieDetail() {
@@ -94,7 +84,6 @@ public class MovieDetail implements Parcelable {
         this.description = in.readString();
         this.runtime = in.readString();
         this.genres = in.readString();
-        this.crews = in.createStringArray();
     }
 
     public static final Parcelable.Creator<MovieDetail> CREATOR = new Parcelable.Creator<MovieDetail>() {
